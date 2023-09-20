@@ -84,6 +84,13 @@
   height: 1em;
 }
 
+.img{
+  object-fit: cover;
+  width: 100%;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

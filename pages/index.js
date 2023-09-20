@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import NavBar from '../components/navBar';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -12,6 +13,13 @@ export default function Home() {
 
       <div>
         <NavBar/>
+        <Image
+          src="/images/wallpaper.jpg" // Route of the image file
+          height={530} // Desired size with correct aspect ratio
+          width={1000} // Desired size with correct aspect ratio
+          className={styles.img}
+          alt="Your Name"
+        />
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1> */}
