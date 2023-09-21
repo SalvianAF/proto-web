@@ -3,19 +3,28 @@ import styles from './navBar.module.css'
 import Button from './button'
 import ListIcon from '@mui/icons-material/List';
 import { useState } from "react";
+import Image from 'next/image';
 
 export default function NavBar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     console.log(isNavExpanded)
     return(
         <div className={styles.nav}>
-                <Button color="red">
+                {/* <Button color="red"> */}
+                <div>
                     <Link href='/home' className={styles["nav-txt"]}>
-                        Proto
+                        <Image
+                            src="/images/porto.png" // Route of the image file
+                            height={43} // Desired size with correct aspect ratio
+                            width={150} // Desired size with correct aspect ratio
+                            className={styles.logo}
+                            alt="Background"
+                        />
                     </Link>
-                </Button>
+                </div>
+                {/* </Button> */}
           
-            <div>
+            <div style={{alignSelf:"center"}}>
                 <div className={styles["nav-menu"]}>
                     <Button type="outlined" style={{marginRight:10}}>
                         <Link href='/' className={styles["nav-txt"]}>
