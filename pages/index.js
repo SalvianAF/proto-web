@@ -19,7 +19,7 @@ export default function Home() {
           height={1000} // Desired size with correct aspect ratio
           width={1500} // Desired size with correct aspect ratio
           className={styles.img}
-          alt="Your Name"
+          alt="Background"
         />
         <div className={styles.tagline}>
           <h3>kami adalah solusi untuk website anda</h3>
