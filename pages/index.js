@@ -14,48 +14,15 @@ export default function Home() {
       <div>
         <NavBar/>
         <Image
-          src="/images/wallpaper.jpg" // Route of the image file
-          height={530} // Desired size with correct aspect ratio
-          width={1000} // Desired size with correct aspect ratio
+          src="/images/wallpaper3.jpg" // Route of the image file
+          height={1000} // Desired size with correct aspect ratio
+          width={1500} // Desired size with correct aspect ratio
           className={styles.img}
           alt="Your Name"
         />
-        {/* <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1> */}
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className={styles.tagline}>
+          <h3>kami adalah solusi untuk website anda</h3>
+          <p>dengan harga termurah dan kualitas yang memusakan</p>
         </div>
       </div>
 

@@ -85,10 +85,34 @@
 }
 
 .img{
-  object-fit: cover;
   width: 100%;
-  border-bottom-left-radius: 200px;
-  border-bottom-right-radius: 200px;
+  height: auto;
+  height: fit-content;
+}
+
+.tagline{
+  width: 100%;
+  padding: 30px;
+  color: white;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.tagline h3{
+  font-size: 50px;
+  max-width: 500px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.tagline p{
+  padding-top: 20px;
+  font-size: 35px;
+  max-width: 500px;
+  text-align: end;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 600px) {
