@@ -14,7 +14,7 @@ export default function NavBar() {
                 <div>
                     <Link href='/home' className={styles["nav-txt"]}>
                         <Image
-                            src="/images/porto.png" // Route of the image file
+                            src="/images/porto-putih.png" // Route of the image file
                             height={43} // Desired size with correct aspect ratio
                             width={150} // Desired size with correct aspect ratio
                             className={styles.logo}
@@ -26,17 +26,17 @@ export default function NavBar() {
           
             <div style={{alignSelf:"center"}}>
                 <div className={styles["nav-menu"]}>
-                    <Button type="outlined" style={{marginRight:10}}>
+                    <Button type="outlined" isActive={true} style={{marginRight:10}}>
                         <Link href='/' className={styles["nav-txt"]}>
                             Home
                         </Link>
                     </Button>
-                    <Button type="outlined" style={{marginRight:10}}>
+                    <Button type="outlined" isActive={true} style={{marginRight:10}}>
                         <Link href='/' className={styles["nav-txt"]}>
                             Service
                         </Link>
                     </Button>
-                    <Button type="outlined" style={{marginRight:10}}>
+                    <Button type="outlined" isActive={true} style={{marginRight:10}}>
                         <Link href='/' className={styles["nav-txt"]}>
                             Contact
                         </Link>
