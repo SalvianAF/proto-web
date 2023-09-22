@@ -7,20 +7,28 @@
     display: flex;
     align-items: center;
     border-radius: 20px;
-    
+}
+.inactive{
+    width: fit-content;
+    min-width: 100px;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
 }
 .btn:hover{
-    filter: brightness(0.8);
+    filter: brightness(0.1);
     /* border: 2px solid black; */
 }
 .outlined{
-    border: 1px solid white;
+    border: 2px solid white;
 }
-.outlined:hover{
-    filter: brightness(0.1);
-    /* border: 1px solid white; */
-    text-decoration: none;
+.default:hover{
+    filter: brightness(0.8);
 }
+
 .btn-txt{
     color: white;
     text-decoration: none;
