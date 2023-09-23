@@ -6,7 +6,7 @@ export default function Button(props) {
         <>
         {props.isActive == true?
             props.type === "outlined"? 
-                <div className={`${styles["btn"]} ${styles["outlined"]}`} style={props.style}>
+                <div className={`${styles["btn"]} ${styles["outlined"]}`} style={{...props.style,borderColor:props.color}}>
                     {props.children}
                 </div>
             :
@@ -15,7 +15,7 @@ export default function Button(props) {
                 </div>
         :
                 props.type === "outlined"? 
-                <div className={`${styles["inactive"]} ${styles["outlined"]}`} style={props.style}>
+                <div className={`${styles["inactive"]} ${styles["outlined"]}`} style={{...props.style,borderColor:props.color}}>
                     {props.children}
                 </div>
             :
