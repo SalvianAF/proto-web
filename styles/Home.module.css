@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -78,7 +78,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
+} */
 
 .logo {
   height: 1em;
@@ -115,20 +115,18 @@
   /* text-shadow: 5px 5px rgba(0, 0, 0, 0.5); */
 }
 
-.web-sample{
+.sample{
   background-color: #0F044C;
   color: white;
-  padding-left: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0 100px 50px;
   display: flex;
   flex-direction: row;
 }
-.web-sample h3{
+.sample h3{
   margin: 0;
   font-size: 25px;
 }
-.section1{
+.sample-desc{
   width: 35%;
   margin-top: 5%;
 }
@@ -141,20 +139,81 @@
   justify-content: end;
   width: 250px;
 }
-.btn-txt{
+.btn-txt-end{
   margin: 5px;
   /* padding: 10px; */
   text-align: end;
   padding-right: 20px
 }
+.btn-txt{
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.btn-txt:hover{
+  color: blueviolet;
+  text-decoration: none;
+}
 
-.section2{
+.sample-web{
   width: 100%;
   margin: 30px;
   margin-right: 0;
   height: 450px;
   background-color: white;
 }
+.service{
+  padding: 100px 50px 100px 50px;
+  background-color: rgb(244, 244, 244);
+}
+.title-container{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.title{
+  margin:7px 15px 7px 15px;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  width: 300px;
+  justify-content: center;
+  height: auto;
+  padding: 5px;
+  margin-top: 50px;
+}
+.square{
+  width: 280px;
+  height: 280px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.card-desc{
+  font-size: 14px;
+  font-weight: 500;
+  color: #141E61;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact{
+  padding: 100px 50px 100px 50px;
+  background-color: #141E61;
+  height: 100%;
+}
+
+
 
 @media (max-width: 768px) {
   .grid {
@@ -176,7 +235,17 @@
     padding-left: auto;
     align-self: flex-end;
   }
-  .web-sample{
+  .sample{
     flex-direction: column;
+    padding: 10px 50px 10px 50px;
+  }
+  .sample-desc{
+    width: 100%;
+  }
+  .sample-btn{
+    margin-top: 30px;
+  }
+  .sample-web{
+    margin-left: 0;
   }
 }
