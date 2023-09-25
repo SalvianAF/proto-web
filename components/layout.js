@@ -3,11 +3,11 @@ import styles from './layout.module.css';
 // const name = 'Your Name';
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/proto.png" />
         <meta
           name="description"
           content="Learn how to build a personal website using Next.js"
@@ -20,6 +20,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>Proto Website</title>
       </Head>
       <main>{children}</main>
     </div>
