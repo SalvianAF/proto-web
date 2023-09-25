@@ -51,7 +51,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                 <Image
-                  src="/images/group 1.png" // Route of the image file
+                  src="/images/group1.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={220} // Desired size with correct aspect ratio
                   className={styles.img}
@@ -70,7 +70,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                   <Image
-                    src="/images/group 2.png" // Route of the image file
+                    src="/images/group2.png" // Route of the image file
                     height={200} // Desired size with correct aspect ratio
                     width={260} // Desired size with correct aspect ratio
                     className={styles.img}
@@ -99,7 +99,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                 <Image
-                  src="/images/group 3.png" // Route of the image file
+                  src="/images/group3.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={220} // Desired size with correct aspect ratio
                   className={styles.img}
@@ -117,7 +117,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                   <Image
-                    src="/images/group 4.png" // Route of the image file
+                    src="/images/group4.png" // Route of the image file
                     height={200} // Desired size with correct aspect ratio
                     width={260} // Desired size with correct aspect ratio
                     className={styles.img}
