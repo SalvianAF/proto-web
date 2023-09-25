@@ -10,7 +10,7 @@ export default function Button(props) {
                     {props.children}
                 </div>
             :
-                <div className={`${styles["btn"]} ${styles["default"]}`} style={{backgroundColor:props.color}}>
+                <div className={`${styles["btn"]} ${styles["default"]}`} style={{...props.style,backgroundColor:props.color}}>
                     {props.children}
                 </div>
         :
@@ -19,7 +19,7 @@ export default function Button(props) {
                     {props.children}
                 </div>
             :
-                <div className={`${styles["inactive"]}`} style={{backgroundColor:props.color}}>
+                <div className={`${styles["inactive"]}`} style={{...props.style,backgroundColor:props.color}}>
                     {props.children}
                 </div>
         }
