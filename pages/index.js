@@ -22,11 +22,13 @@ export default function Home() {
           className={styles.img}
           alt="Background"
         />
-        <div className={styles.tagline}>
+
+        <div className={styles.tagline} id="tagline">
           <h3>kami adalah solusi untuk website anda</h3>
           <p>dengan harga termurah dan kualitas yang memusakan</p>
         </div>
-        <div className={styles["sample"]}>
+
+        <div className={styles["sample"]} id="sample">
           <div className={styles["sample-desc"]}>
               <h3>Web Company Profile mencerminkan perusahaan </h3>
               <h3>Anda, menarik pelanggan baru.</h3>
@@ -38,7 +40,8 @@ export default function Home() {
             {/* gambar sample */}
           </div>
         </div>
-        <div className={styles.service}>
+
+        <div className={styles.service} id="service">
             <div className={styles["title-container"]}>
               <Button isActive={false} color={"#0F044C"}>
                 <h3 className={styles.title}>Service</h3>
@@ -58,7 +61,7 @@ export default function Home() {
                 <div className={styles["card-desc"]}>
                   <p>Kami akan menciptakan tampilan web yang elegan dan profesional untuk perusahaan Anda. Tingkatkan citra bisnis Anda secara online dengan website Company Profile</p>
                   <Button type="outlined" isActive={true} color={"black"} style={{marginTop:"20px"}}>
-                    <Link href='/'className={styles["btn-txt"]}>
+                    <Link href='https://wa.me/6282113119448' className={styles["btn-txt"]}>
                       Pesan Sekarang &nbsp;{'>'}   
                     </Link>
                   </Button>
@@ -77,7 +80,7 @@ export default function Home() {
                 <div className={styles["card-desc"]}>
                   <p>Biarkan karya Anda bersinar dengan website Portofolio Pribadi kami. Kami akan membantu Anda menghadirkan prestasi dan kreativitas Anda</p>
                   <Button type="outlined" isActive={true} color={"black"} style={{marginTop:"20px"}}>
-                    <Link href='/'className={styles["btn-txt"]}>
+                    <Link href='https://wa.me/6282113119448'className={styles["btn-txt"]}>
                       Pesan Sekarang &nbsp;{'>'}   
                     </Link>
                   </Button>
@@ -85,7 +88,8 @@ export default function Home() {
               </Card>
             </div>
           </div>
-          <div className={styles.contact}>
+
+          <div className={styles.contact} id="contact">
             <div className={styles["title-container"]}>
               <Button isActive={false} color={"white"}>
                 <h3 className={styles.title} style={{color:"#141E61"}}>Contact</h3>
@@ -103,8 +107,8 @@ export default function Home() {
                 />
                 </div>
                 <div className={styles["card-desc"]}>
-                  <Button type="outlined" isActive={true} >
-                    <Link href='/'className={styles["btn-txt"]} style={{color:"white"}}>
+                  <Button type="outlined" isActive={true} color={"white"}>
+                    <Link href='https://wa.me/6282113119448' className={`${styles["btn-txt"]} ${styles["white-txt"]}`}>
                       Hubungi kami Via Whatsapp   
                     </Link>
                   </Button>
@@ -121,8 +125,8 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles["card-desc"]}>
-                  <Button type="outlined" isActive={true} >
-                    <Link href='/'className={styles["btn-txt"]} style={{color:"white"}}>
+                  <Button type="outlined" isActive={true}  color={"white"}>
+                    <Link href='mailto:protoindo.agency@gmail.com'className={`${styles["btn-txt"]} ${styles["white-txt"]}`}>
                       Hubungi kami Via Email   
                     </Link>
                   </Button>
@@ -150,29 +154,26 @@ export default function Home() {
                 alt="footer-logo"
             />
             <p>Kami adalah mitra digital Anda untuk solusi website yang terjangkau dan berkualitas. Daoatjan website company profile adan portofolio pribadi Anda dengan harga tebaik</p>
-            
           </div>
           <div className={"fcontainer-section2"}>
             <div className={"fcontainer-icon"}>
-              <LanguageIcon fontSize={"large"} className={"footer-icon"}/>
-              <InstagramIcon fontSize={"large"} className={"footer-icon"}/>
-              <TiktokIcon/>
+              <Link href={"/"} className={"footer-icon"}>
+                <LanguageIcon fontSize={"large"}/>
+              </Link>
+              <Link href={"https://www.instagram.com/portoo.id/"} className={"footer-icon"}>
+                <InstagramIcon fontSize={"large"}/>
+              </Link>
+              <Link href={"/"} className={"footer-icon"}>
+                <TiktokIcon/>
+              </Link>
             </div>
             <div>
               <b style={{fontSize:18}}>www.protoindo.com</b>
-              <p>Jalan remaja II NO.58-A RT001/RW010 Kel.Tengah Kec.Kramat Jati Jakarta Timur</p>
+              <p>Jalan remaja II No.58-A RT001/RW010 Kel.Tengah Kec.Kramat Jati Jakarta Timur</p>
             </div>
           </div>
 
         </div>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a> */}
       </footer>
 
     </div>

@@ -6,20 +6,20 @@ export default function Button(props) {
         <>
         {props.isActive == true?
             props.type === "outlined"? 
-                <div className={`${styles["btn"]} ${styles["outlined"]}`} style={{...props.style,borderColor:props.color}}>
+                <div className={`${styles["btn"]} ${styles["outlined"]}`} style={{...props.style, "--bordercolor":props.color}}>
                     {props.children}
                 </div>
             :
-                <div className={`${styles["btn"]} ${styles["default"]}`} style={{...props.style,backgroundColor:props.color}}>
+                <div className={`${styles["btn"]} ${styles["default"]}`} style={{...props.style, backgroundColor:props.color}}>
                     {props.children}
                 </div>
         :
-                props.type === "outlined"? 
+            props.type === "outlined"? 
                 <div className={`${styles["inactive"]} ${styles["outlined"]}`} style={{...props.style,borderColor:props.color}}>
                     {props.children}
                 </div>
             :
-                <div className={`${styles["inactive"]}`} style={{...props.style,backgroundColor:props.color}}>
+                <div className={`${styles["inactive"]}`} style={{...props.style, backgroundColor:props.color}}>
                     {props.children}
                 </div>
         }
