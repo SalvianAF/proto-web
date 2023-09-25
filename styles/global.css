@@ -6,6 +6,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -77,6 +78,12 @@ footer .footer-background{
 .flogo{
   min-width: 200px;
 }
+.footer-icon{
+  color: white;
+}
+/* .footer-icon:hover{
+  color: rgb(232, 147, 12);
+} */
 @media (max-width: 768px) {
   .footer-logo{
     width: 100px;
