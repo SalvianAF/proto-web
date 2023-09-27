@@ -52,8 +52,8 @@ export default function Home() {
                 <div className={styles.square}>
                   <Image
                     src="/images/company-profile.png" // Route of the image file
-                    height={100} // Desired size with correct aspect ratio
-                    width={100} // Desired size with correct aspect ratio
+                    height={200} // Desired size with correct aspect ratio
+                    width={230} // Desired size with correct aspect ratio
                     className={styles.img}
                     alt="Background"
                   />
