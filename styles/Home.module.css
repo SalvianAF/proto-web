@@ -116,8 +116,6 @@
   margin:0 7px 2px 7px;
   font-size: 30px;
   font-family: 'impact';
-  letter-spacing: 2px;
-  /* background-color: red; */
 }
 .card-container{
   display: flex;
@@ -140,6 +138,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
   margin-top: 25px;
   font-family: 'myriad-pro';
