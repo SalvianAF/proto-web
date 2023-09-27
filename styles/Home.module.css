@@ -1,10 +1,16 @@
 .logo {
   height: 1em;
 }
+.background{
+  width: 100%;
+  height: 100%;
+}
 
 .img{
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  object-fit:contain;
 }
 
 .tagline{
@@ -19,6 +25,8 @@
 }
 
 .tagline h3{
+  font-family: 'futura';
+  text-shadow: 3px 3px 5px black;
   font-size: 3.8vw;
   width: 45%;
   margin: 0;
@@ -26,7 +34,9 @@
 
 .tagline p{
   padding-top: 20px;
+  font-family: 'myriad-pro';
   font-size: 2.5vw;
+  padding-right: 30px;
   width: 40%;
   text-align: end;
   /* text-shadow: 5px 5px rgba(0, 0, 0, 0.5); */
@@ -38,18 +48,21 @@
   padding: 120px 0 120px 50px;
   display: flex;
   flex-direction: row;
-  height: auto;
+  align-items: center;
+  height: 800px;
   
 }
 .sample h3{
   margin: 0;
   font-size: 25px;
+  font-family: 'myriad-pro-light';
 }
 .sample-desc{
   width: 35%;
   margin-top: 5%;
+  /* font-family: 'myriad-pro-light'; */
+  
 }
-
 .sample-btn{
   margin: 0;
   margin-top: 100px;
@@ -61,8 +74,10 @@
 .btn-txt-end{
   margin: 5px;
   /* padding: 10px; */
+  font-size: larger;
   text-align: end;
-  padding-right: 20px
+  padding-right: 20px;
+  font-family: 'myriad-pro';
 }
 .btn-txt{
   padding: 5px;
@@ -90,7 +105,7 @@
 .service{
   padding: 100px 50px 80px 50px;
   background-color: rgb(244, 244, 244);
-  height: auto;
+  height: 800px;
 }
 .title-container{
   display: flex;
@@ -98,7 +113,11 @@
   color: white;
 }
 .title{
-  margin:7px 15px 7px 15px;
+  margin:0 7px 2px 7px;
+  font-size: 30px;
+  font-family: 'impact';
+  letter-spacing: 2px;
+  /* background-color: red; */
 }
 .card-container{
   display: flex;
@@ -115,14 +134,15 @@
   justify-content: center;
 }
 .card-desc{
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 5s00;
   color: #141E61;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
+  font-family: 'myriad-pro';
 }
 .card-desc p{
   margin: 0;
@@ -130,7 +150,7 @@
 .contact{
   padding: 100px 50px 100px 50px;
   background-color: #141E61;
-  height: auto;
+  height: 800px;
   padding-bottom: 20%;
 }
 
@@ -141,7 +161,7 @@
     flex-direction: column;
   }
   .tagline{
-    top: 5%;
+    top: 35vw;
     flex-direction: column;
   }
   .tagline h3{
@@ -156,8 +176,9 @@
     align-self: flex-end;
   }
   .sample{
-    flex-direction: column;
-    padding: 10px 50px 10px 50px;
+    flex-direction: column-reverse;
+    padding: 10px 50px 50px 50px;
+    height: auto;
   }
   .sample h3{
     font-size: 20px;
@@ -170,6 +191,9 @@
   }
   .sample-web{
     margin-left: 0;
+  }
+  .service, .contact{
+    height: auto;
   }
   /* .contact{
     padding-bottom: ;

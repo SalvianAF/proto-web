@@ -26,17 +26,17 @@ export default function NavBar() {
                 <div className={styles["nav-menu"]}>
                     <Button type="outlined" isActive={true} style={{marginRight:10}}  color={"white"}>
                         <Link href='#sample' className={styles["nav-txt"]}>
-                            Home
+                            HOME
                         </Link>
                     </Button>
                     <Button type="outlined" isActive={true} style={{marginRight:10}}  color={"white"}>
                         <Link href='#service' className={styles["nav-txt"]}>
-                            Service
+                            SERVICE
                         </Link>
                     </Button>
                     <Button type="outlined" isActive={true} style={{marginRight:10}}  color={"white"}>
                         <Link href='#contact' className={styles["nav-txt"]} >
-                            Contact
+                            CONTACT
                         </Link>
                     </Button>
                 </div>

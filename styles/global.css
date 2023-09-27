@@ -81,16 +81,39 @@ footer .footer-background{
 .footer-icon{
   color: white;
 }
-/* .footer-icon:hover{
-  color: rgb(232, 147, 12);
-} */
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('../fonts/myriad-pro/MYRIADPRO-REGULAR.woff');
+  /* font-weight: bold; */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'myriad-pro-light';
+  src: url('../fonts/myriad-pro/MyriadPro-Light.woff');
+  /* font-weight: bold; */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'futura';
+  src: url('../fonts/futura/FuturaLTProBold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'impact';
+  src: url('../fonts/impact/impact.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 @media (max-width: 768px) {
   .footer-logo{
     width: 100px;
     height: 200px;
   }
   .fcontainer-section1 p{
-    font-size: small;
+    font-size: 12px;
   }
   .fcontainer-section2{
     font-size: small;
