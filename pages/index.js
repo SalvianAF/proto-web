@@ -19,19 +19,19 @@ export default function Home() {
           src="/images/mountain-wallpapers.jpg" // Route of the image file
           height={1000} // Desired size with correct aspect ratio
           width={1500} // Desired size with correct aspect ratio
-          className={styles.img}
+          className={styles.background}
           alt="Background"
+          id="tagline"
         />
 
-        <div className={styles.tagline} id="tagline">
+        <div className={styles.tagline}>
           <h3>kami adalah solusi untuk website anda</h3>
           <p>dengan harga termurah dan kualitas yang memusakan</p>
         </div>
 
         <div className={styles["sample"]} id="sample">
           <div className={styles["sample-desc"]}>
-              <h3>Web Company Profile mencerminkan perusahaan </h3>
-              <h3>Anda, menarik pelanggan baru.</h3>
+              <h3>Web Company Profile mencerminkan perusahaan Anda, menarik pelanggan baru.</h3>
               <div className={styles["sample-btn"]}>
                 <Button isActive={false} type={"outlined"}><p className={styles["btn-txt-end"]}>Perkenalkan Bisnis Anda Secara Profesional</p></Button>
               </div>
@@ -44,19 +44,19 @@ export default function Home() {
         <div className={styles.service} id="service">
             <div className={styles["title-container"]}>
               <Button isActive={false} color={"#0F044C"}>
-                <h3 className={styles.title}>Service</h3>
+                <h3 className={styles.title}>service</h3>
               </Button>
             </div>
             <div className={styles["card-container"]}>
               <Card>
                 <div className={styles.square}>
-                <Image
-                  src="/images/group1.png" // Route of the image file
-                  height={200} // Desired size with correct aspect ratio
-                  width={220} // Desired size with correct aspect ratio
-                  className={styles.img}
-                  alt="Background"
-                />
+                  <Image
+                    src="/images/company-profile.png" // Route of the image file
+                    height={100} // Desired size with correct aspect ratio
+                    width={100} // Desired size with correct aspect ratio
+                    className={styles.img}
+                    alt="Background"
+                  />
                 </div>
                 <div className={styles["card-desc"]}>
                   <p>Kami akan menciptakan tampilan web yang elegan dan profesional untuk perusahaan Anda. Tingkatkan citra bisnis Anda secara online dengan website Company Profile</p>
