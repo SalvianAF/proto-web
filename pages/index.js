@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className={styles.tagline}>
           <h3>kami adalah solusi untuk website anda</h3>
-          <p>dengan harga termurah dan kualitas yang memusakan</p>
+          <p>dengan harga termurah dan kualitas yang memuaskan</p>
         </div>
 
         <div className={styles["sample"]} id="sample">
@@ -70,7 +70,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                   <Image
-                    src="/images/group2.png" // Route of the image file
+                    src="/images/portofolio-website.png" // Route of the image file
                     height={200} // Desired size with correct aspect ratio
                     width={260} // Desired size with correct aspect ratio
                     className={styles.img}
@@ -99,7 +99,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                 <Image
-                  src="/images/group3.png" // Route of the image file
+                  src="/images/whatsapp.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={220} // Desired size with correct aspect ratio
                   className={styles.img}
@@ -117,7 +117,7 @@ export default function Home() {
               <Card>
                 <div className={styles.square}>
                   <Image
-                    src="/images/group4.png" // Route of the image file
+                    src="/images/email.png" // Route of the image file
                     height={200} // Desired size with correct aspect ratio
                     width={260} // Desired size with correct aspect ratio
                     className={styles.img}
@@ -153,7 +153,7 @@ export default function Home() {
                 className={styles.flogo}
                 alt="footer-logo"
             />
-            <p>Kami adalah mitra digital Anda untuk solusi website yang terjangkau dan berkualitas. Daoatjan website company profile adan portofolio pribadi Anda dengan harga tebaik</p>
+            <p>Kami adalah mitra digital Anda untuk solusi website yang terjangkau dan berkualitas. Dapatkan website company profile adan portofolio pribadi Anda dengan harga tebaik</p>
           </div>
           <div className={"fcontainer-section2"}>
             <div className={"fcontainer-icon"}>
@@ -168,7 +168,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <b style={{fontSize:18}}>www.protoindo.com</b>
+              <b style={{fontSize:18}}>www.portoindo.com</b>
               <p>Jalan remaja II No.58-A RT001/RW010 Kel.Tengah Kec.Kramat Jati Jakarta Timur</p>
             </div>
           </div>
