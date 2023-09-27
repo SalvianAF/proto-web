@@ -1,5 +1,6 @@
 .card{
     width: fit-content;
+    max-width: 300px;
     justify-content: center;
     height: auto;
     padding: 5px;
