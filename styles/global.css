@@ -56,8 +56,6 @@ footer .footer-background{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.footer-container{
   color: white;
 }
 .fcontainer-section1{
@@ -108,6 +106,9 @@ footer .footer-background{
 }
 
 @media (max-width: 768px) {
+  .footer-container{
+    padding-bottom: 5px;
+  }
   .footer-logo{
     width: 100px;
     height: 200px;
