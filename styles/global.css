@@ -57,6 +57,7 @@ footer .footer-background{
   flex-direction: row;
   justify-content: space-between;
   color: white;
+  font-family: 'myriad-pro';
 }
 .fcontainer-section1{
   width: 45%;
@@ -122,10 +123,3 @@ footer .footer-background{
   }
 
 }
-/* footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-} */

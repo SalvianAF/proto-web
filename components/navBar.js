@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 export default function NavBar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
-    console.log(isNavExpanded)
     return(
         <div className={styles.nav}>
                 <div>
