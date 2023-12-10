@@ -36,9 +36,15 @@ export default function Home() {
                 <Button isActive={false} type={"outlined"}><p className={styles["btn-txt-end"]}>Perkenalkan Bisnis Anda Secara Profesional</p></Button>
               </div>
           </div>
-          <div className={styles["sample-web"]}>
-            {/* gambar sample */}
-          </div>
+          {/* <div className={styles["sample-web"]}> */}
+            <Image
+               src="/images/sample1.webp" // Route of the image file
+               height={500} // Desired size with correct aspect ratio
+               width={1000} // Desired size with correct aspect ratio
+               className={styles["sample-web"]}
+               alt="sample"
+            />
+          {/* </div> */}
         </div>
 
         <div className={styles.service} id="service">
